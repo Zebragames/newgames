@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <div class="login-header">
+                <h2>Sign in using unique ID</h2>
+            </div>
+            <div class="login-body">
+                <input type="text" id="userID" placeholder="Enter ID">
+                <input type="password" id="userPassword" placeholder="Password">
+                <button id="loginButton" onclick="login()">
+                    <img src="lock-icon.png" alt="Lock Icon">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-container" id="contentPage" style="display: none;">
+        <header>
+            <div class="header-content">
+                <h1>Exchange</h1>
+                <div class="balance">Rs 45,600</div>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li>Cricket</li>
+                <li>Soccer</li>
+                <li>Tennis</li>
+                <li>Hockey</li>
+                <li>Racing</li>
+            </ul>
+        </nav>
+        <main>
+            <section class="event">
+                <h2>24 APR 2023 - MONDAY</h2>
+                <div class="event-details live">
+                    <div class="team">GT vs CSK</div>
+                    <div class="score">174-8 (20 Overs) - 155-4 (20 Overs)</div>
+                    <div class="location">Rajiv Gandhi International Stadium, Hyderabad, India</div>
+                    <div class="favourite">Favourite - Gujarat Titans</div>
+                </div>
+                <div class="event-details upcoming">
+                    <div class="team">GT vs CSK</div>
+                    <div class="score">Starts in 06:13:12</div>
+                    <div class="location">Rajiv Gandhi International Stadium, Hyderabad, India</div>
+                    <div class="favourite">Favourite - Gujarat Titans</div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <ul>
+                <li>Home</li>
+                <li>Orders</li>
+                <li>Profile</li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
